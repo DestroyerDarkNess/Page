@@ -1,0 +1,58 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box; /*prefijo para safary y google Chrome*/
+	-moz-box-sizing: border-box; /*Firefox*/
+	-o-box-sizing: border-box; /*Opera*/
+	-ms-box-sizing: border-box; /*Internet Explorer*/
+	box-sizing: border-box;
+}
+
+header{
+	width: 100%; /*Para que ocupe el 75 de la pantalla*/
+	margin: none;/* 15px*/  /*Para estar sentrados*/
+}
+
+header nav ul{
+	text-indent: center; /*Crentramos las letras del menu*/
+	list-style: none; /*Para quitarle los puntos que trae por defecto la lista*/
+	background: #0B90DF; /*Para dar color a la barra del menu*/
+    /*border-radius: 20px;*/ /*En modo curvo*/
+}
+
+header nav ul li{
+	display: inline-block; /*Ordena los elementos de la lista en forma lineal*/	
+}
+
+header nav ul li a{
+	padding: 14px 60px; /*15px arriba 25px abajo de derecha a izquierda*/
+	color: black; /*Color a las letras del menu*/
+    font-size: 18px; /*Aumentando el tamaño de las letra del navegador*/
+    font-weight: bold;/*Para que se vea en negrita*/
+	font-family: arial;/*Estilo de letra: Arial, entre otros..*/
+	display: block; /*Colocamos los elementos a en bloque ya que por defecto son en linea*/
+    text-decoration: none;/*Para eliminar la linea debajo de las letras del menu*/
+    /**/
+}
+
+header nav ul li a:hover{ /*Para la sombra cuando pasemossobre los elementos*/
+	background:#FCCC00; /**/
+	transition: 0.6s;
+}
+
+video{
+	width: 500px;
+}
+
+div{
+text-align: right;
+}
+
+.Alien img{
+	margin: 10px;
+}
+
+
+
+
+

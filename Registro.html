@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Registro</title>
+	<!--<meta http-equiv="refresh" content="3">-->
+	<link rel="stylesheet" type="text/css" href="CSS/Estilos-registro.css">
+	<!---->
+    <link rel="stylesheet" type="text/css" href="CSS/Estilos.css">
+</head>
+<body>
+
+	  <style type="text/css">
+ /*#header {
+    margin:auto;
+    width:5000px;
+    font-family:Arial, Helvetica, sans-serif;
+   }*/
+   
+  /* ul, ul {
+    list-style:none;
+   }*/
+   
+   /*.nav > li {
+    float:left;
+   }*/
+   
+   /*.nav li a {
+   
+    text-decoration:none;*/
+    /*padding:15px 130px;*/
+    /*display:block;
+   }*/
+   
+   .nav li ul {
+   /*Oculta barra*/display:none;
+    /**/position:absolute;
+    /*min-width:150px;*/
+   }
+   
+   .nav li:hover >ul {
+    display:block;
+   }
+   
+   .nav li ul li {
+    position:relative;
+   }
+   
+   .nav li ul li ul {
+    right:-140px;
+    top:0px;
+   }
+   
+  </style>
+
+   <header>
+		<nav> <!--Navegacion-->
+		  <div id="wraper">
+           <div id="header">
+			<ul class="nav"> <!--Lista desordenada-->
+				<li><a href="index.html">Inicio</a></li>
+				<li><a href="Registro.html">Registrar</a></li>
+				<li><a href="">Descargar</a>
+			    <ul>
+					<li><a href="sopa de letras.pdf" target="_blank">Sopa De Letras.pdf</a></li>
+					</a>
+				</ul>
+				
+				<li><a href="">Videos</a></li>
+				<li><a href="Acerca-de.HTML">Acerda de</a></li>
+			</ul>
+		   </li>
+		   </div>
+          </div>
+		</nav>
+	</header>
+	<br>
+
+	<form action="Registro.php" method="post" name="form">
+
+		<label for="nombre" >Ingrese su Nombre:</label>
+		<input type="text" id="nombre" placeholder="Nombre" name="Nombre">
+
+		<label for="apellido" >Ingrese su Apellido:</label>
+		<input type="text" id="apellido" placeholder="Apellido" name="Apellido">
+
+		<label for="correo" >Ingrese su Correo:</label>
+		<input type="emai" id="correo" placeholder="Correo" name="Correo">
+
+		<label for="password" >Ingrese su Contraseña:</label>
+		<input type="password" id="password" placeholder="Contraseña" name="Contraseña">
+
+		<label for="passwordconf">Confirme su Contraseña Nuevamente:</label>
+		<input type="password" name="passwordconf" placeholder="Contraseña Nuevamente" name="Contraseña Nuevamente">
+
+		<a href="index.html"> <input type="submit" value="Registrar"></a>
+		
+	</form>
+</body>
+</html>
